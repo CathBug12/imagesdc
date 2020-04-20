@@ -8,7 +8,7 @@ $accent    : #ce3e6f
 
 $dark      : #242424
 
-$positive  : #40ff61
+$positive  : #3fb65f
 $negative  : #ff2640
 $info      : #8fd6f8
 $warning   : #f2c037
@@ -26,7 +26,7 @@ $accent    : #ce3e6f;
 
 $dark      : #242424;
 
-$positive  : #40ff61;
+$positive  : #3fb65f;
 $negative  : #ff2640;
 $info      : #8fd6f8;
 $warning   : #f2c037;
@@ -43,7 +43,7 @@ $accent    = #ce3e6f
 
 $dark      = #242424
 
-$positive  = #40ff61
+$positive  = #3fb65f
 $negative  = #ff2640
 $info      = #8fd6f8
 $warning   = #f2c037
@@ -65,7 +65,7 @@ return {
 
         dark: '#242424',
 
-        positive: '#40ff61',
+        positive: '#3fb65f',
         negative: '#ff2640',
         info: '#8fd6f8',
         warning: '#f2c037'
@@ -90,7 +90,7 @@ window.quasarConfig = {
 
     dark: '#242424',
 
-    positive: '#40ff61',
+    positive: '#3fb65f',
     negative: '#ff2640',
     info: '#8fd6f8',
     warning: '#f2c037'
@@ -113,7 +113,7 @@ Vue.use(Quasar, {
 
       dark: '#242424',
 
-      positive: '#40ff61',
+      positive: '#3fb65f',
       negative: '#ff2640',
       info: '#8fd6f8',
       warning: '#f2c037'
