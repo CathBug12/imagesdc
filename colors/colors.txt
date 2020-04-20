@@ -1,0 +1,122 @@
+//Sass
+///////
+// src/css/quasar.variables.sass
+
+$primary   : #212b46
+$secondary : #58abd3
+$accent    : #ce3e6f
+
+$dark      : #242424
+
+$positive  : #40ff61
+$negative  : #ff2640
+$info      : #8fd6f8
+$warning   : #f2c037
+
+
+
+////////
+//SCSS
+////////
+// src/css/quasar.variables.scss
+
+$primary   : #212b46;
+$secondary : #58abd3;
+$accent    : #ce3e6f;
+
+$dark      : #242424;
+
+$positive  : #40ff61;
+$negative  : #ff2640;
+$info      : #8fd6f8;
+$warning   : #f2c037;
+
+
+////////
+//Stylus
+////////
+// src/css/quasar.variables.styl
+
+$primary   = #212b46
+$secondary = #58abd3
+$accent    = #ce3e6f
+
+$dark      = #242424
+
+$positive  = #40ff61
+$negative  = #ff2640
+$info      = #8fd6f8
+$warning   = #f2c037
+
+
+/////////
+//Quasar
+////////
+// quasar.conf.js
+// (will not work for IE11)
+
+return {
+  framework: {
+    config: {
+      brand: {
+        primary: '#212b46',
+        secondary: '#58abd3',
+        accent: '#ce3e6f',
+
+        dark: '#242424',
+
+        positive: '#40ff61',
+        negative: '#ff2640',
+        info: '#8fd6f8',
+        warning: '#f2c037'
+      }
+    }
+  }
+}
+
+
+
+///////
+//UMD
+///////
+// place before including Quasar UMD script
+// (will not work for IE11)
+
+window.quasarConfig = {
+  brand: {
+    primary: '#212b46',
+    secondary: '#58abd3',
+    accent: '#ce3e6f',
+
+    dark: '#242424',
+
+    positive: '#40ff61',
+    negative: '#ff2640',
+    info: '#8fd6f8',
+    warning: '#f2c037'
+  }
+}
+
+
+//////
+//Vue
+//////
+// main.js
+// (will not work for IE11)
+
+Vue.use(Quasar, {
+  config: {
+    brand: {
+      primary: '#212b46',
+      secondary: '#58abd3',
+      accent: '#ce3e6f',
+
+      dark: '#242424',
+
+      positive: '#40ff61',
+      negative: '#ff2640',
+      info: '#8fd6f8',
+      warning: '#f2c037'
+    }
+  }
+})
