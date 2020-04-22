@@ -2,8 +2,8 @@
 ///////
 // src/css/quasar.variables.sass
 
-$primary   : #212b46
-$secondary : #58abd3
+$primary   : #3e5680
+$secondary : #85a0c9
 $accent    : #ce3e6f
 
 $dark      : #242424
@@ -20,8 +20,8 @@ $warning   : #f2c037
 ////////
 // src/css/quasar.variables.scss
 
-$primary   : #212b46;
-$secondary : #58abd3;
+$primary   : #3e5680;
+$secondary : #85a0c9;
 $accent    : #ce3e6f;
 
 $dark      : #242424;
@@ -37,8 +37,8 @@ $warning   : #f2c037;
 ////////
 // src/css/quasar.variables.styl
 
-$primary   = #212b46
-$secondary = #58abd3
+$primary   = #3e5680
+$secondary = #85a0c9
 $accent    = #ce3e6f
 
 $dark      = #242424
@@ -59,8 +59,8 @@ return {
   framework: {
     config: {
       brand: {
-        primary: '#212b46',
-        secondary: '#58abd3',
+        primary: '#3e5680',
+        secondary: '#85a0c9',
         accent: '#ce3e6f',
 
         dark: '#242424',
@@ -84,8 +84,8 @@ return {
 
 window.quasarConfig = {
   brand: {
-    primary: '#212b46',
-    secondary: '#58abd3',
+    primary: '#3e5680',
+    secondary: '#85a0c9',
     accent: '#ce3e6f',
 
     dark: '#242424',
@@ -107,8 +107,8 @@ window.quasarConfig = {
 Vue.use(Quasar, {
   config: {
     brand: {
-      primary: '#212b46',
-      secondary: '#58abd3',
+      primary: '#3e5680',
+      secondary: '#85a0c9',
       accent: '#ce3e6f',
 
       dark: '#242424',
